@@ -4,6 +4,16 @@
 
 ---
 
+##  Preview
+
+ [Ссылка на демо-версию](https://nvsakhnodev.github.io/tic-tac-toe-app/)
+
+
+
+ <img width="456" height="532" alt="изображение" src="https://github.com/user-attachments/assets/1cc39e7a-66a1-427b-840e-209c2fbb401e" />
+
+---
+
 ## Возможности
 
 * Игровое поле 3x3
