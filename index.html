@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Крестики-нолики</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="game">
+            <h1 class="game__title">Крестики - нолики</h1>
+
+            <p id="status" class="game__status"></p>
+
+            <div class="game__board" id="board">
+                <button class="cell" data-index="0"></button>
+                <button class="cell" data-index="1"></button>
+                <button class="cell" data-index="2"></button>
+                <button class="cell" data-index="3"></button>
+                <button class="cell" data-index="4"></button>
+                <button class="cell" data-index="5"></button>
+                <button class="cell" data-index="6"></button>
+                <button class="cell" data-index="7"></button>
+                <button class="cell" data-index="8"></button>
+            </div>
+             
+            <div class="score">
+                <div class="score__item">
+                    ❌: <span id="scoreX">0</span>
+                </div>
+                <div class="score__item">
+                    🔵: <span id="scoreO">0</span>
+                </div>
+            </div>
+
+            <div class="game__controls">
+                <button id="restartBtn">Начать заново</button>
+                <button id="resetScoreBtn">Сбросить счёт</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
